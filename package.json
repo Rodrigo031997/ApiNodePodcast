@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node ./index.js"
+    "start":"node index.js"
   },
   "keywords": [
-    "example",
-    "heroku"
+    "node",
+    "heroku",
+    "express"
   ],
   "author": "rodrigo",
   "license": "ISC",
