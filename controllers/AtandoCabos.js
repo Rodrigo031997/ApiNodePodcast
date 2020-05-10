@@ -36,8 +36,8 @@ xmlToJson(url, function(err, data) {
   if (err) {
     return console.err(err);
   }
-  var json = '';
-  var json = data;
+
+  var json = data.rss.channel[0].item;
   
     res.json(json);
 
